@@ -12,8 +12,11 @@ brew "ripgrep"  # For neovim searching
 brew "fzf"  # Fuzzy finder
 brew "bat"  # Better cat
 
-# # Window management
-# cask "rectangle"  # Window manager (or "amethyst" if you prefer)
+# Window management
+tap "koekeishiya/formulae"
+brew "yabai"
+brew "skhd"      # Simple hotkey daemon for macOS
+cask "karabiner-elements"
  
 # Terminal
 cask "iterm2"

@@ -47,5 +47,9 @@ fi
 echo "Setting up dotfiles..."
 ./setup_symlinks.sh
 
+# Setup window manager
+echo "Setting up window manager..."
+./setup_window_manager.sh
+
 echo "Installation complete! 🚀"
 echo "Please restart your terminal or run 'source ~/.zshrc' to apply changes."
