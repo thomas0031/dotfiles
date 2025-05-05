@@ -1,9 +1,5 @@
 #!/usr/bin/env sh
 
-# Load scripting addition for yabai to perform advanced operations
-sudo yabai --load-sa
-yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
-
 # Global settings
 yabai -m config layout                      bsp
 yabai -m config window_placement            second_child
@@ -12,6 +8,9 @@ yabai -m config window_shadow               float
 yabai -m config window_opacity              off
 yabai -m config active_window_opacity       1.0
 yabai -m config normal_window_opacity       0.9
+
+# Signal that scripting-addition was loaded successfully (if it was)
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 
 # Prevent yabai from managing certain apps
 yabai -m rule --add app="^System Settings$" manage=off
