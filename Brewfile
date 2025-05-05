@@ -11,6 +11,8 @@ brew "stow"  # For managing symlinks
 brew "ripgrep"  # For neovim searching
 brew "fzf"  # Fuzzy finder
 brew "bat"  # Better cat
+brew "node"
+brew "pnpm"
 
 # Window management
 tap "koekeishiya/formulae"
