@@ -11,7 +11,7 @@ On a new Mac:
 git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ```
-2. Run the installation script:
+2. Run make command:
 ```sh
-./install.sh
+make
 ```
