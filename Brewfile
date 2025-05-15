@@ -13,6 +13,8 @@ brew "fzf"  # Fuzzy finder
 brew "bat"  # Better cat
 brew "node"
 brew "pnpm"
+brew "go"
+brew "tree"
 
 # Window management
 tap "koekeishiya/formulae"
