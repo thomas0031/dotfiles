@@ -15,6 +15,7 @@ brew "node"
 brew "pnpm"
 brew "go"
 brew "tree"
+brew "luarocks"
 
 # Window management
 tap "koekeishiya/formulae"
