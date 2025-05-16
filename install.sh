@@ -51,10 +51,6 @@ echo "Setting up dotfiles..."
 echo "Setting up window manager..."
 ./setup_window_manager.sh
 
-# Set up yabai sudoers file (requires sudo)
-echo "Setting up yabai sudoers file (requires sudo password)..."
-./setup_yabai_sudoers.sh
-
 echo "To load the yabai scripting addition, run:"
 echo "sudo yabai --load-sa"
 

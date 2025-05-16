@@ -19,24 +19,6 @@ else
 fi
 
 echo ""
-echo "Checking services status:"
-
-# Check if services are running using the native commands
-if yabai --check-service &>/dev/null; then
-  echo "✅ yabai service is running"
-else
-  echo "❌ yabai service is not running"
-  echo "   Start with: yabai --start-service"
-fi
-
-if skhd --check-service &>/dev/null; then
-  echo "✅ skhd service is running"
-else
-  echo "❌ skhd service is not running"
-  echo "   Start with: skhd --start-service"
-fi
-
-echo ""
 echo "Checking configuration files:"
 
 # Check if config files exist and have correct permissions
