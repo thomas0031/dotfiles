@@ -1,5 +1,3 @@
-vim.g.mapleader = ' '
-
 local nmap = function(key, effect)
   vim.keymap.set('n', key, effect, { silent = true, noremap = true })
 end

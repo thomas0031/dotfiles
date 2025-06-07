@@ -16,6 +16,7 @@ brew "pnpm"
 brew "go"
 brew "tree"
 brew "luarocks"
+brew "lua-language-server"
 
 # Window management
 tap "koekeishiya/formulae"
@@ -32,3 +33,5 @@ cask "font-hack-nerd-font"  # Good developer font with icons
 # Add any other applications you use regularly
 # cask "visual-studio-code"
 cask "docker"
+
+cask "dbeaver-community"
